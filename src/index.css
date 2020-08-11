@@ -1,0 +1,64 @@
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    padding: 60px;
+}
+
+.catForms {
+    display: flex;
+    flex-flow: row nowrap; 
+    justify-content: center;
+}
+
+.catForms form input {
+    color: gray;
+    font-size: 1.2rem;
+    width: 100%;
+}
+.catForms form {
+    margin-right: 0.5em;
+    order: 1;
+    flex: 1 1 90%;
+    align-self: auto;
+}
+
+.catForms button {
+    border: 1px solid rgb(35, 35, 35);
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(120, 120, 120);
+    margin-left: 0.5em;
+    order: 2;
+    flex: 0 1 10%;
+    align-self: auto;
+}
+
+.card {
+    align-content: center;
+    border: 1px solid gray;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.card img {
+    max-height: 220px;
+    justify-content: center;
+}
+
+.card p {
+    padding: 5px;
+    text-align: center;
+}
+
+.card-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
